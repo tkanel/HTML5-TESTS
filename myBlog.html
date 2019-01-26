@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	Industrious by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html class="no-js">
+
+<head>
+    <title>Konstantinos Kanellopoulos</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    
+    <link rel="stylesheet" href="assets/css/main.css" />
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js'></script>
+    
+    
+    <script type="text/javascript" src="canvas.js"></script> 
+   
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        #canvas1,
+        #canvas2,
+        #canvas3,
+        #canvas4,
+        #canvas5 {
+            background: #ffffff;
+            border: #000000 1px solid;
+            padding: 10px;
+        }
+
+    </style>
+
+
+</head>
+
+
+<body onload="Canvas()" class="is-preload">
+    <header id="header">
+        <a class="myText">"Designing a computer is like constructing a good building using minimum money in minimum time with maximum knowledge"</a><time>10:00</time>
+
+        <nav>
+            <a href="index.html">Home Page</a>
+        </nav>
+    </header>
+
+    <p></p>
+
+
+    <section style="padding-left: 10px">
+
+        <h2><b>News</b></h2>
+        <hr>
+
+    </section>
+
+
+    <div id="div1" style="border:1px #000000 solid;width: 222px;height:288px;" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    
+    <img id="drag1" style="border:1px #000000 solid;padding: 10px;" src='images/KK_pic2.jpg' draggable="true" ondragstart="drag(event)">
+
+
+
+
+
+    <section style="padding-left: 10px">
+
+        <p><canvas id="canvas1" width="400" height="300"></canvas></p>
+        <p><canvas id="canvas2" width="400" height="300"></canvas></p>
+        <p><canvas id="canvas3" width="400" height="300"></canvas></p>
+        <p><canvas id="canvas4" width="400" height="300"></canvas></p>
+        <p><canvas id="canvas5" width="400" height="300"></canvas></p>
+
+        select date : <input type="date" name="url"> Number of pages : <input type="number" name="url"> Select color : <input type="color" name="url">
+
+
+        <article id="1">
+
+            <p class="date">21/1/2019</p>
+            <p><i class="fa fa-podcast" aria-hidden="true"></i><b> Continuous Integration of Machine Learning Models: A Rigorous Yet Practical Treatment" accepted at SysML 2019 </b></p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </article>
+        <hr>
+
+    </section>
+
+    <section style="padding-left: 10px">
+        <article id="2">
+            <p class="date">20/1/2019</p>
+            <p><i class="fa fa-podcast" aria-hidden="true"></i><b> Gave a talk at Microsoft Research India on enabling cross-layer research. Relevant papers: </b></p>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </article>
+        <hr>
+
+    </section>
+
+    <section style="padding-left: 10px">
+        <article id="3">
+            <p class="date">4/1/2019</p>
+            <p><i class="fa fa-podcast" aria-hidden="true"></i><b> Gave talks at MIT, EPFL, ETH, UIUC, and Penn State University on my ISCA 2018 work:</b></p>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </article>
+        <hr>
+
+    </section>
+
+    <p>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+    </p>
+
+</body>
+
+</html>
